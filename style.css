@@ -1,0 +1,29 @@
+/*
+Theme Name: Stacey Fuller Landing Page
+Description: Official WordPress landing page theme for Stacey Fuller
+Author URI: https://staceyfuller.com.au/
+Version: 1.0.1
+Text-Domain: sflanding
+*/
+.landing-media-and-text {
+  min-height: 100vh !important;
+}
+
+/* TODO: Filter social media icon colours to black and white */
+
+@media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 1392px) {
+  .wp-container-7 {
+    flex-wrap: wrap !important;
+  }
+
+  .wp-container-7 .wp-block-column {
+    flex-basis: 100% !important;
+  }
+
+  .wp-container-7 .film-photography-links {
+    margin-top: 26px;
+  }
+}
