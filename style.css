@@ -12,6 +12,9 @@ Text-Domain: sflanding
 /* TODO: Filter social media icon colours to black and white */
 
 @media screen and (max-width: 600px) {
+  .handwritten-name {
+    margin-top: 20px !important;
+  }
 }
 
 @media screen and (max-width: 1392px) {
