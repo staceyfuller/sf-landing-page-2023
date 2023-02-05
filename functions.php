@@ -40,6 +40,9 @@ if (!function_exists('staceyfullerlanding_setup')) :
         // add_editor_style( 'editor-style.css' );
 
         // Enqueue block styles if needed
+
+        // // more image sizes
+        // add_image_size('Large Portrait', 1280, 1201,  array('center', 'center'));
     }
 endif; // myfirsttheme_setup
 add_action('after_setup_theme', 'staceyfullerlanding_setup');
