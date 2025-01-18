@@ -10,16 +10,16 @@ Text-Domain: sflanding
 }
 
 .landing-media-and-text h2 {
-  font-family: "Helvetica Neue", "Helvetica", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
-    sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", sans-serif;
 }
 
 .sf-contact-form .gform_required_legend {
   display: none !important;
 }
 .sf-contact-form {
-  font-family: "Helvetica Neue", "Helvetica", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
-    sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", sans-serif;
 }
 
 .sf-contact-form .gform_footer {
@@ -33,8 +33,8 @@ Text-Domain: sflanding
 }
 
 .sf-contact-form .gform_button {
-  font-family: "Helvetica Neue", "Helvetica", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
-    sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", sans-serif;
   background-color: #000000;
   color: #ffffff;
   padding: 20px 51px;
@@ -64,8 +64,8 @@ Text-Domain: sflanding
 .gform_wrapper.gravity-theme input[type="week"],
 .gform_wrapper.gravity-theme select,
 .gform_wrapper.gravity-theme textarea {
-  font-family: "Helvetica Neue", "Helvetica", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
-    sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", sans-serif;
 }
 
 /* ERROR COLOUR MODS */
@@ -118,4 +118,33 @@ Text-Domain: sflanding
   .wp-container-7 .film-photography-links {
     margin-top: 26px;
   }
+}
+
+/* Contact form 7 */
+.wpcf7-form label {
+  font-weight: 700;
+}
+
+.wpcf7-form label input[type="text"],
+.wpcf7-form label input[type="email"],
+.wpcf7-form label textarea {
+  font-weight: 400;
+  padding: 10px;
+  width: 100%;
+}
+
+.wpcf7-form input[type="submit"] {
+  font-family: "Helvetica Neue", "Helvetica", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px 51px;
+  text-transform: uppercase;
+  border: 1px solid #000000;
+  cursor: pointer;
+}
+
+.wpcf7-form input[type="submit"]:hover {
+  background-color: #ffffff;
+  color: #000000;
 }
